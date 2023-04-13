@@ -4,23 +4,17 @@ class Person {
 		this.name=name;
 		this.age=age;
 	}
-	get getterName(){
-		return name;
-	}
-	set setterAge(update){
-		this.age=update;
-	}
 }
 
 class Student extends Person {
 	study(){
-		console.log(`${Student.name} is studying`);
+		console.log(`${this.name} is studying`);
 	}
 }
 
 class Teacher extends Person {
 	teach(){
-		console.log(`${super.name} is teaching`);
+		console.log(`${this.name} is teaching`);
 	}
 }
 
