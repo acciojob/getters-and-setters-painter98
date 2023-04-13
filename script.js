@@ -4,13 +4,13 @@ class Person {
 		this.name=name;
 		this.age=age;
 	}
-	get getName(){
+	/*get getName(){
 		this.name=name;
 		return name;
 	}
 	set setAge(age){
 		this.age=age;
-	} 
+	} */
 }
 
 class Student extends Person {
