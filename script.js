@@ -4,8 +4,9 @@ class Person {
 		this.name=name;
 		this.age=age;
 	}
-	get getName(){
-		return this.name;
+	getName(){
+		this.name=name;
+		return name;
 	}
 	setAge(age1){
 		this.age=age1;
