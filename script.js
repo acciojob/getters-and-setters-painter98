@@ -8,8 +8,8 @@ class Person {
 		this.name=name;
 		return name;
 	}
-	set setAge(age){
-		this.age=age;
+	set setAge(age1){
+		this.age=age1;
 	} 
 }
 
